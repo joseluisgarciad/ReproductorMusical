@@ -13,6 +13,25 @@
 		8B6A9B251C6CDA8A00DEA297 /* ReproductorMusical.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8B6A9B231C6CDA8A00DEA297 /* ReproductorMusical.xcdatamodeld */; };
 		8B6A9B271C6CDA8A00DEA297 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B6A9B261C6CDA8A00DEA297 /* Assets.xcassets */; };
 		8B6A9B2A1C6CDA8A00DEA297 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B6A9B281C6CDA8A00DEA297 /* LaunchScreen.storyboard */; };
+		8B6A9B321C6CDDC900DEA297 /* Clocks.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B6A9B311C6CDDC900DEA297 /* Clocks.mp3 */; };
+		8B6A9B341C6CED6700DEA297 /* Country House .mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B6A9B331C6CED6700DEA297 /* Country House .mp3 */; };
+		8B6A9B391C6CED6F00DEA297 /* Enjoy the Silence.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B6A9B351C6CED6F00DEA297 /* Enjoy the Silence.mp3 */; };
+		8B6A9B3A1C6CED6F00DEA297 /* Lessons in Love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B6A9B361C6CED6F00DEA297 /* Lessons in Love.mp3 */; };
+		8B6A9B3B1C6CED6F00DEA297 /* Porcelain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B6A9B371C6CED6F00DEA297 /* Porcelain.mp3 */; };
+		8B6A9B3C1C6CED6F00DEA297 /* Relax.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B6A9B381C6CED6F00DEA297 /* Relax.mp3 */; };
+		8B6A9B421C6CED8600DEA297 /* pause.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B6A9B3D1C6CED8600DEA297 /* pause.jpg */; };
+		8B6A9B431C6CED8600DEA297 /* play.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B6A9B3E1C6CED8600DEA297 /* play.jpg */; };
+		8B6A9B441C6CED8600DEA297 /* shuffle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B6A9B3F1C6CED8600DEA297 /* shuffle.jpg */; };
+		8B6A9B451C6CED8600DEA297 /* stop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B6A9B401C6CED8600DEA297 /* stop.jpg */; };
+		8B6A9B461C6CED8600DEA297 /* volumen.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B6A9B411C6CED8600DEA297 /* volumen.png */; };
+		8B6A9B481C6D058600DEA297 /* noshuffle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B6A9B471C6D058600DEA297 /* noshuffle.jpg */; };
+		8B6A9B4F1C6DEB7F00DEA297 /* clocks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B6A9B491C6DEB7F00DEA297 /* clocks.jpg */; };
+		8B6A9B501C6DEB7F00DEA297 /* Country.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B6A9B4A1C6DEB7F00DEA297 /* Country.jpg */; };
+		8B6A9B511C6DEB7F00DEA297 /* Enjoy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B6A9B4B1C6DEB7F00DEA297 /* Enjoy.jpg */; };
+		8B6A9B521C6DEB7F00DEA297 /* lessons.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B6A9B4C1C6DEB7F00DEA297 /* lessons.jpg */; };
+		8B6A9B531C6DEB7F00DEA297 /* porcelain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B6A9B4D1C6DEB7F00DEA297 /* porcelain.jpg */; };
+		8B6A9B541C6DEB7F00DEA297 /* relax.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B6A9B4E1C6DEB7F00DEA297 /* relax.jpg */; };
+		8B6A9B561C6E434900DEA297 /* cdblanco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B6A9B551C6E434900DEA297 /* cdblanco.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +43,25 @@
 		8B6A9B261C6CDA8A00DEA297 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B6A9B291C6CDA8A00DEA297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B6A9B2B1C6CDA8A00DEA297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B6A9B311C6CDDC900DEA297 /* Clocks.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Clocks.mp3; sourceTree = "<group>"; };
+		8B6A9B331C6CED6700DEA297 /* Country House .mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Country House .mp3"; sourceTree = "<group>"; };
+		8B6A9B351C6CED6F00DEA297 /* Enjoy the Silence.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Enjoy the Silence.mp3"; sourceTree = "<group>"; };
+		8B6A9B361C6CED6F00DEA297 /* Lessons in Love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lessons in Love.mp3"; sourceTree = "<group>"; };
+		8B6A9B371C6CED6F00DEA297 /* Porcelain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Porcelain.mp3; sourceTree = "<group>"; };
+		8B6A9B381C6CED6F00DEA297 /* Relax.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Relax.mp3; sourceTree = "<group>"; };
+		8B6A9B3D1C6CED8600DEA297 /* pause.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pause.jpg; sourceTree = "<group>"; };
+		8B6A9B3E1C6CED8600DEA297 /* play.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = play.jpg; sourceTree = "<group>"; };
+		8B6A9B3F1C6CED8600DEA297 /* shuffle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shuffle.jpg; sourceTree = "<group>"; };
+		8B6A9B401C6CED8600DEA297 /* stop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stop.jpg; sourceTree = "<group>"; };
+		8B6A9B411C6CED8600DEA297 /* volumen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = volumen.png; sourceTree = "<group>"; };
+		8B6A9B471C6D058600DEA297 /* noshuffle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = noshuffle.jpg; sourceTree = "<group>"; };
+		8B6A9B491C6DEB7F00DEA297 /* clocks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clocks.jpg; sourceTree = "<group>"; };
+		8B6A9B4A1C6DEB7F00DEA297 /* Country.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Country.jpg; sourceTree = "<group>"; };
+		8B6A9B4B1C6DEB7F00DEA297 /* Enjoy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Enjoy.jpg; sourceTree = "<group>"; };
+		8B6A9B4C1C6DEB7F00DEA297 /* lessons.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lessons.jpg; sourceTree = "<group>"; };
+		8B6A9B4D1C6DEB7F00DEA297 /* porcelain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = porcelain.jpg; sourceTree = "<group>"; };
+		8B6A9B4E1C6DEB7F00DEA297 /* relax.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = relax.jpg; sourceTree = "<group>"; };
+		8B6A9B551C6E434900DEA297 /* cdblanco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cdblanco.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +101,25 @@
 				8B6A9B281C6CDA8A00DEA297 /* LaunchScreen.storyboard */,
 				8B6A9B2B1C6CDA8A00DEA297 /* Info.plist */,
 				8B6A9B231C6CDA8A00DEA297 /* ReproductorMusical.xcdatamodeld */,
+				8B6A9B311C6CDDC900DEA297 /* Clocks.mp3 */,
+				8B6A9B331C6CED6700DEA297 /* Country House .mp3 */,
+				8B6A9B351C6CED6F00DEA297 /* Enjoy the Silence.mp3 */,
+				8B6A9B361C6CED6F00DEA297 /* Lessons in Love.mp3 */,
+				8B6A9B371C6CED6F00DEA297 /* Porcelain.mp3 */,
+				8B6A9B381C6CED6F00DEA297 /* Relax.mp3 */,
+				8B6A9B3D1C6CED8600DEA297 /* pause.jpg */,
+				8B6A9B3E1C6CED8600DEA297 /* play.jpg */,
+				8B6A9B3F1C6CED8600DEA297 /* shuffle.jpg */,
+				8B6A9B471C6D058600DEA297 /* noshuffle.jpg */,
+				8B6A9B401C6CED8600DEA297 /* stop.jpg */,
+				8B6A9B411C6CED8600DEA297 /* volumen.png */,
+				8B6A9B491C6DEB7F00DEA297 /* clocks.jpg */,
+				8B6A9B4A1C6DEB7F00DEA297 /* Country.jpg */,
+				8B6A9B4B1C6DEB7F00DEA297 /* Enjoy.jpg */,
+				8B6A9B4C1C6DEB7F00DEA297 /* lessons.jpg */,
+				8B6A9B4D1C6DEB7F00DEA297 /* porcelain.jpg */,
+				8B6A9B4E1C6DEB7F00DEA297 /* relax.jpg */,
+				8B6A9B551C6E434900DEA297 /* cdblanco.jpg */,
 			);
 			path = ReproductorMusical;
 			sourceTree = "<group>";
@@ -126,9 +183,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B6A9B3B1C6CED6F00DEA297 /* Porcelain.mp3 in Resources */,
 				8B6A9B2A1C6CDA8A00DEA297 /* LaunchScreen.storyboard in Resources */,
+				8B6A9B421C6CED8600DEA297 /* pause.jpg in Resources */,
+				8B6A9B511C6DEB7F00DEA297 /* Enjoy.jpg in Resources */,
+				8B6A9B501C6DEB7F00DEA297 /* Country.jpg in Resources */,
+				8B6A9B481C6D058600DEA297 /* noshuffle.jpg in Resources */,
+				8B6A9B441C6CED8600DEA297 /* shuffle.jpg in Resources */,
+				8B6A9B341C6CED6700DEA297 /* Country House .mp3 in Resources */,
+				8B6A9B391C6CED6F00DEA297 /* Enjoy the Silence.mp3 in Resources */,
+				8B6A9B531C6DEB7F00DEA297 /* porcelain.jpg in Resources */,
+				8B6A9B461C6CED8600DEA297 /* volumen.png in Resources */,
+				8B6A9B4F1C6DEB7F00DEA297 /* clocks.jpg in Resources */,
 				8B6A9B271C6CDA8A00DEA297 /* Assets.xcassets in Resources */,
 				8B6A9B221C6CDA8A00DEA297 /* Main.storyboard in Resources */,
+				8B6A9B451C6CED8600DEA297 /* stop.jpg in Resources */,
+				8B6A9B561C6E434900DEA297 /* cdblanco.jpg in Resources */,
+				8B6A9B521C6DEB7F00DEA297 /* lessons.jpg in Resources */,
+				8B6A9B431C6CED8600DEA297 /* play.jpg in Resources */,
+				8B6A9B321C6CDDC900DEA297 /* Clocks.mp3 in Resources */,
+				8B6A9B3C1C6CED6F00DEA297 /* Relax.mp3 in Resources */,
+				8B6A9B541C6DEB7F00DEA297 /* relax.jpg in Resources */,
+				8B6A9B3A1C6CED6F00DEA297 /* Lessons in Love.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

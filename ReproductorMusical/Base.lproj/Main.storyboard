@@ -14,14 +14,87 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="blh-4K-lGL">
+                                <rect key="frame" x="133" y="274" width="50" height="38"/>
+                                <state key="normal" image="pause.jpg"/>
+                                <connections>
+                                    <action selector="Pause" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lhu-M2-UZO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3xj-7L-wbe">
+                                <rect key="frame" x="60" y="274" width="50" height="38"/>
+                                <state key="normal" image="play.jpg"/>
+                                <connections>
+                                    <action selector="Play" destination="BYZ-38-t0r" eventType="touchUpInside" id="4WH-82-3pK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OfO-ZI-CCj">
+                                <rect key="frame" x="210" y="274" width="50" height="38"/>
+                                <state key="normal" image="stop.jpg"/>
+                                <connections>
+                                    <action selector="Stop" destination="BYZ-38-t0r" eventType="touchUpInside" id="Eh6-D3-XQC"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cdblanco.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="MX9-ud-981">
+                                <rect key="frame" x="60" y="61" width="200" height="200"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QmW-5T-8mL">
+                                <rect key="frame" x="60" y="332" width="23" height="23"/>
+                                <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" image="volumen.png"/>
+                            </button>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="p2P-MZ-r5g">
+                                <rect key="frame" x="89" y="332" width="135" height="31"/>
+                                <connections>
+                                    <action selector="Volumen:" destination="BYZ-38-t0r" eventType="valueChanged" id="V48-5J-WO0"/>
+                                </connections>
+                            </slider>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Bk-1a-CeN">
+                                <rect key="frame" x="20" y="370" width="280" height="96"/>
+                                <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="8bC-Xf-vdC" id="V9l-Bd-q06"/>
+                                    <outlet property="delegate" destination="8bC-Xf-vdC" id="25f-KE-Qd5"/>
+                                </connections>
+                            </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pTa-s7-ApB">
+                                <rect key="frame" x="20" y="28" width="280" height="25"/>
+                                <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7cM-kT-Agp">
+                                <rect key="frame" x="231" y="332" width="29" height="26"/>
+                                <state key="normal" image="shuffle.jpg"/>
+                                <connections>
+                                    <action selector="BotonShuffle" destination="BYZ-38-t0r" eventType="touchUpInside" id="tsl-Mm-xOZ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="ImagenPortada" destination="MX9-ud-981" id="S3Q-rG-zQt"/>
+                        <outlet property="ListaCanciones" destination="4Bk-1a-CeN" id="Hnz-W9-Zet"/>
+                        <outlet property="TituloCancion" destination="pTa-s7-ApB" id="0ai-MR-hnh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="540" y="24"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="cdblanco.jpg" width="367" height="327"/>
+        <image name="pause.jpg" width="65" height="65"/>
+        <image name="play.jpg" width="65" height="65"/>
+        <image name="shuffle.jpg" width="29" height="26"/>
+        <image name="stop.jpg" width="65" height="65"/>
+        <image name="volumen.png" width="41" height="40"/>
+    </resources>
 </document>
